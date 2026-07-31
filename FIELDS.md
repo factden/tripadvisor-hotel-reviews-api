@@ -50,11 +50,10 @@ relevant.
 | `rating` | number \| null | Overall average rating (e.g. `4.2`). |
 | `numReviews` | integer \| null | Total number of reviews on TripAdvisor. |
 | `ratingHistogram` | object \| null | Review counts by star: `count1` … `count5` (integers). |
-| `rankingPosition` | integer \| null | The place's rank within its category/geo (e.g. `309`). |
-| `rankingDenominator` | integer \| null | Total places in that ranking (e.g. `594`). |
-| `rankingString` | string \| null | Human-readable ranking, e.g. `#309 of 594 hotels in Barcelona`. |
-| `rankingCategory` | string \| null | Category the ranking is measured in, e.g. `hotel`. |
-| `rankingGeo` | string \| null | Geography the ranking is measured in, e.g. `Barcelona`. |
+| `rank` | integer \| null | The place's rank within its category/area (e.g. `309`). |
+| `rankOutOf` | integer \| null | Total places in that ranking (e.g. `594`). |
+| `rankCategory` | string \| null | Category the ranking is measured in, e.g. `hotels`. |
+| `rankGeo` | string \| null | Area the ranking is measured in, e.g. `Barcelona`. |
 | `priceRange` | string \| null | Nightly/price range, e.g. `$459 - $822`. |
 | `priceLevel` | string \| null | Price tier symbol, e.g. `$$$$`. |
 | `hotelClass` | number \| null | Star classification of the property (e.g. `5.0`). |

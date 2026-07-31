@@ -7,7 +7,7 @@ Scrape **all reviews and full property details from any TripAdvisor hotel, resta
 structured JSON, CSV or Excel. Two modes: **Reviews** (give it a TripAdvisor URL or location ID) returns every
 review, with reviewer profile, per-review subratings and owner responses, plus a rich property record (ranking,
 price range, amenities, official category subratings and TripAdvisor's AI review summary). **Discover** (give it a
-city name) returns a list of that city's places with the same property details, no reviews.
+city name) returns a list of that city's places with the same property details.
 
 This repository is the **public documentation** for the actor. The actor itself runs on Apify:
 👉 **[apify.com/factden/tripadvisor-hotel-reviews-api](https://apify.com/factden/tripadvisor-hotel-reviews-api?fpr=factden)**
@@ -83,10 +83,10 @@ More runnable snippets (Python, Node.js, curl) live in **[snippets/](snippets/)*
 
 | Field | What it does |
 |---|---|
-| `mode` | **Reviews** (default) = scrape reviews for the places you name below; **Discover** = list a city's places, no reviews |
+| `mode` | **Reviews** (default) = scrape reviews for the places you name below; **Discover** = list a city's places |
 | `startUrls` | (Reviews) TripAdvisor `Hotel_Review` / `Restaurant_Review` / `Attraction_Review` URLs |
 | `locationIds` | (Reviews) TripAdvisor location IDs (the `d`-number), instead of/alongside URLs |
-| `searchTerms` + `placeTypes` + `maxPlaces` | (Discover) search a city name and get its hotels/restaurants/attractions as place records (no reviews) |
+| `searchTerms` + `placeTypes` + `maxPlaces` | (Discover) search a city name and get its hotels/restaurants/attractions as place records |
 | `maxReviews` | Cap reviews per place (newest-first; large number = all) |
 | `reviewLanguages` | Keep only reviews in these languages (or all) |
 | `minRating` / `maxRating` | Star band, 1-5 (set equal for a single rating) |
@@ -136,7 +136,7 @@ keeps a first run fast and cheap, and a rolling `fromDate` makes recurring runs 
 
 **Do I have to provide URLs?**
 No. You can pass location IDs instead. Or switch to **Discover** mode and enter a city/place name in `searchTerms`
-to get a list of that city's places (details only, no reviews), then feed those location IDs back into **Reviews**
+to get a list of that city's places (details only), then feed those location IDs back into **Reviews**
 mode for their reviews. A stale or merged URL/ID still works, it self-heals to the current place.
 
 **Is web scraping legal?**

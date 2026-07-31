@@ -33,7 +33,7 @@ Narrow down which reviews you keep:
   recurring run grabs just what's new since last time.
 - **Property details are always included:** each place also yields one **property record** with ranking, price
   range, amenities, official category subratings and the AI review summary. (In Discover mode you get these place
-  records for a whole city, without reviews.)
+  records for a whole city.)
 
 ## 3. Run it
 
