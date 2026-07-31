@@ -67,10 +67,6 @@
             { "text": "rooftop bar", "reviewCount": 391 },
             { "text": "sea view room", "reviewCount": 356 }
         ],
-        "styleTags": [
-            { "name": "Luxury", "category": "style", "score": 0.94 },
-            { "name": "Ocean View", "category": "style", "score": 0.88 }
-        ],
         "roomTips": [
             { "text": "Make sure to get the view facing the beach.", "rating": 5 },
             { "text": "Book a cabana experience - and a high floor - you will not regret it!", "rating": 5 },

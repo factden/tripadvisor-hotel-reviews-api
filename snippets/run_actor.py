@@ -22,7 +22,6 @@ run_input = {
     "reviewLanguages": ["all"],
     "minRating": 1,
     "maxRating": 5,
-    "includePropertyDetails": True,
     "proxyConfiguration": {"useApifyProxy": True},
 }
 

@@ -20,7 +20,6 @@ const input = {
     reviewLanguages: ['all'],
     minRating: 1,
     maxRating: 5,
-    includePropertyDetails: true,
     proxyConfiguration: { useApifyProxy: true },
 };
 

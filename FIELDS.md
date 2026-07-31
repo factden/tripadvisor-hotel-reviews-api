@@ -1,7 +1,8 @@
 # Field reference
 
-The actor writes to two datasets. **Reviews** is the default dataset — one row per review. **Places** (the
-`properties` dataset) holds one record per place and is produced only when `includePropertyDetails` is on.
+The actor writes to two datasets. **Reviews** is the default dataset, one row per review. **Places** (the
+`properties` dataset) holds one record per place, always emitted alongside reviews in Reviews mode, and the sole
+output in Discover mode.
 
 Every row also carries a `markdownContent` field: a compact, LLM-ready Markdown rendering of that record, listed
 last in each table below.
@@ -22,12 +23,12 @@ One row per TripAdvisor review.
 | `isMachineTranslated` | boolean | `true` if the text shown is a machine translation. |
 | `title` | string \| null | Review title / headline. |
 | `text` | string \| null | Full review body. |
-| `rating` | integer \| null | Star rating the reviewer gave, `1`–`5`. |
+| `rating` | integer \| null | Star rating the reviewer gave, `1`-`5`. |
 | `publishedDate` | string \| null | When the review was published (ISO 8601). |
 | `travelDate` | string \| null | Month the reviewer stayed/visited, e.g. `2026-07`. |
 | `publishedPlatform` | string \| null | Platform the review was posted from, e.g. `Desktop`, `Mobile`. |
 | `helpfulVotes` | integer | Number of "helpful" votes the review received. |
-| `subratings` | array of objects | Per-review category scores. Each item: `name` (string, e.g. `Rooms`, `Service`) and `value` (integer, `1`–`5`). Empty when the reviewer left none. |
+| `subratings` | array of objects | Per-review category scores. Each item: `name` (string, e.g. `Rooms`, `Service`) and `value` (integer, `1`-`5`). Empty when the reviewer left none. |
 | `ownerResponse` | object \| null | The management reply, if any: `responder` (string), `title` (string), `text` (string), `publishedDate` (string). |
 | `user` | object \| null | Reviewer profile: `userId` (string), `memberId` (string), `username` (string), `name` (string), `userLocation` (string), `contributions` (integer, total reviews written), `avatar` (string, image URL), `reviewerType` (string). |
 | `scrapedAt` | string | UTC timestamp when the actor collected this row (ISO 8601). |
@@ -35,9 +36,9 @@ One row per TripAdvisor review.
 
 ## Places dataset
 
-One record per place — full property details. Produced only when `includePropertyDetails` is on
-(paid add-on, one record per place). Works for hotels, restaurants and attractions; type-specific fields such as
-`amenities`, `cuisine` or `hours` populate only when relevant.
+One record per place, full property details, always emitted (one billable record per place). Works for hotels,
+restaurants and attractions; type-specific fields such as `amenities`, `cuisine` or `hours` populate only when
+relevant.
 
 | Field | Type | Description |
 |---|---|---|
@@ -67,9 +68,8 @@ One record per place — full property details. Produced only when `includePrope
 | `dietaryRestrictions` | array of strings | Dietary options (restaurants), e.g. `Vegetarian friendly`. |
 | `establishmentTypes` | array of strings | Establishment types (restaurants/attractions). |
 | `hours` | object \| null | Opening hours, when published. |
-| `subratings` | object \| null | Official TripAdvisor category subratings: `cleanliness`, `service`, `value`, `location`, `rooms`, `sleepQuality` (numbers, `1`–`5`). |
+| `subratings` | object \| null | Official TripAdvisor category subratings: `cleanliness`, `service`, `value`, `location`, `rooms`, `sleepQuality` (numbers, `1`-`5`). |
 | `reviewTags` | array of objects | Popular mentions / keywords. Each: `text` (string) and `reviewCount` (integer). |
-| `styleTags` | array of objects | Style/vibe tags. Each: `name` (string), `category` (string), `score` (number). |
 | `roomTips` | array of objects | Traveller room tips. Each: `text` (string) and `rating` (integer). |
 | `photos` | array of objects | Place photos. Each: `url` (string), `width` (integer), `height` (integer), `caption` (string). |
 | `aiReviewSummary` | object \| null | TripAdvisor's AI review summary: `title` (string), `text` (string), and `chips` (array of `{ attribute, opinion }`). Best-effort. |

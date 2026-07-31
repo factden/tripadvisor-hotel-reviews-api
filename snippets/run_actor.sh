@@ -24,7 +24,6 @@ curl -s -X POST \
     "reviewLanguages": ["all"],
     "minRating": 1,
     "maxRating": 5,
-    "includePropertyDetails": true,
     "proxyConfiguration": { "useApifyProxy": true }
   }'
 
