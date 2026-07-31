@@ -60,18 +60,6 @@
             "rooms": 4.0,
             "sleepQuality": 4.2
         },
-        "reviewTags": [
-            { "text": "beach club", "reviewCount": 812 },
-            { "text": "sail shaped building", "reviewCount": 447 },
-            { "text": "rooftop bar", "reviewCount": 391 },
-            { "text": "sea view room", "reviewCount": 356 }
-        ],
-        "roomTips": [
-            { "text": "Make sure to get the view facing the beach.", "rating": 5 },
-            { "text": "Book a cabana experience - and a high floor - you will not regret it!", "rating": 5 },
-            { "text": "Avoid rooms on first 6 floors. Close to the airport.", "rating": 4 },
-            { "text": "Plan to wait past check in time.", "rating": 2 }
-        ],
         "photos": [
             {
                 "url": "https://media-cdn.tripadvisor.com/media/photo-w/33/fd/85/e5/w-barcelona-sea-and-beach.jpg",
@@ -96,6 +84,6 @@
         "writeReviewUrl": "https://www.tripadvisor.com/UserReview-g187497-d1465497-W_Hotel_Barcelona-Barcelona_Catalonia.html",
         "awards": [],
         "scrapedAt": "2026-07-27T09:15:04.117003+00:00",
-        "markdownContent": "# W Hotel Barcelona\n**Type:** hotel  ·  **Rating:** 4.2/5 (8452 reviews)\n**Ranking:** #309 of 594 hotels in Barcelona\n**Price:** $459 - $822 $$$$\n**Address:** Placa Rosa Del Vents, 1 Final Pg. de Joan de Borbó, 08039 Barcelona Spain\n\n## Category subratings\ncleanliness: 4.3/5, service: 4.1/5, value: 3.8/5, location: 4.6/5, rooms: 4.0/5, sleepQuality: 4.2/5\n\n## Amenities\nBeverages, Bar / Lounge, Wheelchair access, Business Center, Beach, Airport Transportation, Fitness Center, Pet Friendly, Suites, Room Service, Spa, Swimming Pool, Restaurant\n\n## Popular mentions\nbeach club (812), sail shaped building (447), rooftop bar (391), sea view room (356)"
+        "markdownContent": "# W Hotel Barcelona\n**Type:** hotel  ·  **Rating:** 4.2/5 (8452 reviews)\n**Ranking:** #309 of 594 hotels in Barcelona\n**Price:** $459 - $822 $$$$\n**Address:** Placa Rosa Del Vents, 1 Final Pg. de Joan de Borbó, 08039 Barcelona Spain\n\n## Category subratings\ncleanliness: 4.3/5, service: 4.1/5, value: 3.8/5, location: 4.6/5, rooms: 4.0/5, sleepQuality: 4.2/5\n\n## Amenities\nBeverages, Bar / Lounge, Wheelchair access, Business Center, Beach, Airport Transportation, Fitness Center, Pet Friendly, Suites, Room Service, Spa, Swimming Pool, Restaurant"
     }
 ]

@@ -68,8 +68,6 @@ relevant.
 | `establishmentTypes` | array of strings | Establishment types (restaurants/attractions). |
 | `hours` | object \| null | Opening hours, when published. |
 | `subratings` | object \| null | Official TripAdvisor category subratings: `cleanliness`, `service`, `value`, `location`, `rooms`, `sleepQuality` (numbers, `1`-`5`). |
-| `reviewTags` | array of objects | Popular mentions / keywords. Each: `text` (string) and `reviewCount` (integer). |
-| `roomTips` | array of objects | Traveller room tips. Each: `text` (string) and `rating` (integer). |
 | `photos` | array of objects | Place photos. Each: `url` (string), `width` (integer), `height` (integer), `caption` (string). |
 | `aiReviewSummary` | object \| null | TripAdvisor's AI review summary: `title` (string), `text` (string), and `chips` (array of `{ attribute, opinion }`). Best-effort. |
 | `phone` | string \| null | Contact phone number. |
@@ -79,4 +77,4 @@ relevant.
 | `writeReviewUrl` | string \| null | The TripAdvisor "write a review" URL for the place. |
 | `awards` | array of strings | TripAdvisor awards the place holds, e.g. `Travelers' Choice`. |
 | `scrapedAt` | string | UTC timestamp when the actor collected this record (ISO 8601). |
-| `markdownContent` | string | LLM-ready Markdown rendering of the place (name, rating, ranking, price, address, subratings, amenities, popular mentions, description). |
+| `markdownContent` | string | LLM-ready Markdown rendering of the place (name, rating, ranking, price, address, subratings, amenities, description). |

@@ -34,7 +34,7 @@ This repository is the **public documentation** for the actor. The actor itself 
 - **City ranking** (`#309 of 594 hotels in Barcelona`), price range and price level, hotel class
 - Address (structured + formatted), latitude/longitude, phone, email, website
 - Amenities / cuisine / dietary options, opening hours, awards
-- Official TripAdvisor **category subratings**, **popular mentions**, **room tips** and photos
+- Official TripAdvisor **category subratings** + **AI review summary**; photos (opt-in)
 - TripAdvisor's **AI review summary**, plus `markdownContent`
 
 See **[FIELDS.md](FIELDS.md)** for the full data dictionary and **[HOWTO.md](HOWTO.md)** for a step-by-step guide.
@@ -106,7 +106,7 @@ Real sample output (built from a live run against W Barcelona) is in **[examples
 
 - **Reputation & guest-experience monitoring**, track new reviews, ratings and owner-response coverage across a
   portfolio of properties.
-- **Competitive benchmarking**, compare rankings, price levels, subratings and popular mentions against rivals.
+- **Competitive benchmarking**, compare rankings, price levels and subratings against rivals.
 - **Voice-of-customer & LLM analysis**, feed `markdownContent` straight into RAG, summarization or sentiment
   pipelines.
 - **Market research**, pull every hotel/restaurant/attraction in a city with discovery mode.
