@@ -1,0 +1,106 @@
+[
+    {
+        "placeId": 1465497,
+        "placeType": "hotel",
+        "name": "W Hotel Barcelona",
+        "category": "Hotel",
+        "description": "W Barcelona is a magnificent choice for travellers visiting Barcelona, offering a luxury atmosphere alongside numerous amenities designed to enhance your stay. Rooms include a flat-screen TV, minibar and air conditioning, and guests can stay connected with free wifi. A rooftop terrace, concierge and room service are among the services on offer, and the pool and breakfast will make your stay even more special.",
+        "rating": 4.2,
+        "numReviews": 8452,
+        "ratingHistogram": {
+            "count1": 499,
+            "count2": 391,
+            "count3": 754,
+            "count4": 1870,
+            "count5": 4938
+        },
+        "rankingPosition": 309,
+        "rankingDenominator": 594,
+        "rankingString": "#309 of 594 hotels in Barcelona",
+        "rankingCategory": "hotel",
+        "rankingGeo": "Barcelona",
+        "priceRange": "$459 - $822",
+        "priceLevel": "$$$$",
+        "hotelClass": 5.0,
+        "address": "Placa Rosa Del Vents, 1 Final Pg. de Joan de Borbó, 08039 Barcelona Spain",
+        "addressObj": {
+            "street1": "Placa Rosa Del Vents, 1",
+            "street2": "Final Pg. de Joan de Borbó",
+            "city": "Barcelona",
+            "state": null,
+            "country": "Spain",
+            "postalcode": "08039"
+        },
+        "latitude": 41.368446,
+        "longitude": 2.19015,
+        "locationString": "Barcelona, Catalonia",
+        "amenities": [
+            "Beverages",
+            "Bar / Lounge",
+            "Wheelchair access",
+            "Business Center",
+            "Beach",
+            "Airport Transportation",
+            "Fitness Center",
+            "Pet Friendly",
+            "Suites",
+            "Room Service",
+            "Spa",
+            "Swimming Pool",
+            "Restaurant"
+        ],
+        "cuisine": [],
+        "dietaryRestrictions": [],
+        "establishmentTypes": [],
+        "hours": null,
+        "subratings": {
+            "cleanliness": 4.3,
+            "service": 4.1,
+            "value": 3.8,
+            "location": 4.6,
+            "rooms": 4.0,
+            "sleepQuality": 4.2
+        },
+        "reviewTags": [
+            { "text": "beach club", "reviewCount": 812 },
+            { "text": "sail shaped building", "reviewCount": 447 },
+            { "text": "rooftop bar", "reviewCount": 391 },
+            { "text": "sea view room", "reviewCount": 356 }
+        ],
+        "styleTags": [
+            { "name": "Luxury", "category": "style", "score": 0.94 },
+            { "name": "Ocean View", "category": "style", "score": 0.88 }
+        ],
+        "roomTips": [
+            { "text": "Make sure to get the view facing the beach.", "rating": 5 },
+            { "text": "Book a cabana experience - and a high floor - you will not regret it!", "rating": 5 },
+            { "text": "Avoid rooms on first 6 floors. Close to the airport.", "rating": 4 },
+            { "text": "Plan to wait past check in time.", "rating": 2 }
+        ],
+        "photos": [
+            {
+                "url": "https://media-cdn.tripadvisor.com/media/photo-w/33/fd/85/e5/w-barcelona-sea-and-beach.jpg",
+                "width": 1024,
+                "height": 683,
+                "caption": "W Barcelona Sea and Beach view."
+            }
+        ],
+        "aiReviewSummary": {
+            "title": "What guests loved",
+            "text": "Guests consistently praise the iconic sail-shaped building, the beachfront location and the rooftop bar. Some recent reviews mention renovation noise and inconsistent room temperature.",
+            "chips": [
+                { "attribute": "Location", "opinion": "positive" },
+                { "attribute": "View", "opinion": "positive" },
+                { "attribute": "Value", "opinion": "mixed" }
+            ]
+        },
+        "phone": "18446310595",
+        "email": "wbarcelona@whotels.com",
+        "website": "https://www.marriott.com/en-us/hotels/bcnwh-w-barcelona/overview/",
+        "webUrl": "https://www.tripadvisor.com/Hotel_Review-g187497-d1465497-Reviews-W_Hotel_Barcelona-Barcelona_Catalonia.html",
+        "writeReviewUrl": "https://www.tripadvisor.com/UserReview-g187497-d1465497-W_Hotel_Barcelona-Barcelona_Catalonia.html",
+        "awards": [],
+        "scrapedAt": "2026-07-27T09:15:04.117003+00:00",
+        "markdownContent": "# W Hotel Barcelona\n**Type:** hotel  ·  **Rating:** 4.2/5 (8452 reviews)\n**Ranking:** #309 of 594 hotels in Barcelona\n**Price:** $459 - $822 $$$$\n**Address:** Placa Rosa Del Vents, 1 Final Pg. de Joan de Borbó, 08039 Barcelona Spain\n\n## Category subratings\ncleanliness: 4.3/5, service: 4.1/5, value: 3.8/5, location: 4.6/5, rooms: 4.0/5, sleepQuality: 4.2/5\n\n## Amenities\nBeverages, Bar / Lounge, Wheelchair access, Business Center, Beach, Airport Transportation, Fitness Center, Pet Friendly, Suites, Room Service, Spa, Swimming Pool, Restaurant\n\n## Popular mentions\nbeach club (812), sail shaped building (447), rooftop bar (391), sea view room (356)"
+    }
+]

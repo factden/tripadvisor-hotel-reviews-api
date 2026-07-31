@@ -1,0 +1,11 @@
+{
+    "startUrls": [
+        { "url": "https://www.tripadvisor.com/Hotel_Review-g187497-d1465497-Reviews-W_Barcelona-Barcelona_Catalonia.html" }
+    ],
+    "maxReviews": 50,
+    "reviewLanguages": ["all"],
+    "minRating": 1,
+    "maxRating": 5,
+    "includePropertyDetails": true,
+    "proxyConfiguration": { "useApifyProxy": true }
+}
