@@ -12,6 +12,10 @@ city name) returns a list of that city's places with the same property details.
 This repository is the **public documentation** for the actor. The actor itself runs on Apify:
 👉 **[apify.com/factden/tripadvisor-hotel-reviews-api](https://apify.com/factden/tripadvisor-hotel-reviews-api?fpr=factden)**
 
+**Watch the 80-second walkthrough:**
+
+[![How to Scrape TripAdvisor Reviews to CSV (No Code)](https://img.youtube.com/vi/SBJPKMIv_o8/maxresdefault.jpg)](https://www.youtube.com/watch?v=SBJPKMIv_o8)
+
 - **Actor ID:** `jDQ2qpF4iRYLbUM0c` · **slug:** `tripadvisor-hotel-reviews-api`
 - Works for **hotels**, **restaurants** and **attractions**, identical output shape, type-specific fields fill
   in conditionally.
