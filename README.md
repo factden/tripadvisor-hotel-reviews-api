@@ -158,6 +158,7 @@ Building a review or travel dataset? These pair well with this actor:
 - [G2 Reviews Scraper](https://apify.com/factden/g2-reviews-scraper?fpr=factden) ([docs](https://github.com/factden/g2-reviews-scraper))
 
 - [Airbnb Data Scraper](https://apify.com/factden/airbnb-data-scraper?fpr=factden) ([docs](https://github.com/factden/airbnb-data-scraper)) - Airbnb listings, prices, availability, occupancy, ADR/RevPAR & reviews; a pay-per-use AirDNA alternative.
+- [Agoda Hotel Reviews Scraper](https://apify.com/factden/agoda-hotel-reviews-scraper?fpr=factden) ([docs](https://github.com/factden/agoda-hotel-reviews-scraper))
 [All FactDen actors →](https://apify.com/factden?fpr=factden)
 
 ## License
