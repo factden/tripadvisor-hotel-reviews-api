@@ -93,6 +93,8 @@ More runnable snippets (Python, Node.js, curl) live in **[snippets/](snippets/)*
 | `searchTerms` + `placeTypes` + `maxPlaces` | (Discover) search a city name and get its hotels/restaurants/attractions as place records |
 | `searchKeywords` + `placeTypes` + `maxPlaces` | (Discover) search a property name/brand/keyword (e.g. `Hilton`) and get the matching places directly |
 | `searchLocation` | (Discover) optional city or country to filter keyword results to (e.g. `Hilton` + `Belgium`); a city can also be listed on its own, a country must be paired with a keyword |
+
+Keyword search matches by **whole words** in the property name (accent-insensitive), so type the full brand or venue word: `Hilton`, `W Barcelona`, `Ritz Carlton`, `Meliá` all work. A trailing partial word is fine (`Hilton Gard` finds "Hilton Garden Inn"), but a standalone fragment like `Hil` will not match. Sub-brands with a different name (e.g. `Conrad`, `Waldorf Astoria`) are not returned by the parent brand, search them by their own name.
 | `maxReviews` | Cap reviews per place (newest-first; large number = all) |
 | `reviewLanguages` | Keep only reviews in these languages (or all) |
 | `minRating` / `maxRating` | Star band, 1-5 (set equal for a single rating) |
