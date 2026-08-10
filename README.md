@@ -87,10 +87,12 @@ More runnable snippets (Python, Node.js, curl) live in **[snippets/](snippets/)*
 
 | Field | What it does |
 |---|---|
-| `mode` | **Reviews** (default) = scrape reviews for the places you name below; **Discover** = list a city's places |
+| `mode` | **Reviews** (default) = scrape reviews for the places you name below; **Discover** = search a city or keyword and list places |
 | `startUrls` | (Reviews) TripAdvisor `Hotel_Review` / `Restaurant_Review` / `Attraction_Review` URLs |
 | `locationIds` | (Reviews) TripAdvisor location IDs (the `d`-number), instead of/alongside URLs |
 | `searchTerms` + `placeTypes` + `maxPlaces` | (Discover) search a city name and get its hotels/restaurants/attractions as place records |
+| `searchKeywords` + `placeTypes` + `maxPlaces` | (Discover) search a property name/brand/keyword (e.g. `Hilton`) and get the matching places directly |
+| `searchLocation` | (Discover) optional city or country to filter keyword results to (e.g. `Hilton` + `Belgium`); a city can also be listed on its own, a country must be paired with a keyword |
 | `maxReviews` | Cap reviews per place (newest-first; large number = all) |
 | `reviewLanguages` | Keep only reviews in these languages (or all) |
 | `minRating` / `maxRating` | Star band, 1-5 (set equal for a single rating) |

@@ -14,11 +14,18 @@ There are three ways to target places, use any one, or mix them:
   works, the actor follows the merge to the current place automatically.
 - **Enter Location IDs** in **🆔 …or Location IDs** (`locationIds`), the `d`-number from a URL (e.g. `1465497`
   from `…-d1465497-…`), one per line.
-- **Search a city or place name** in **🔍 …or search a city / place** (`searchTerms`), e.g. `Barcelona`. Pick the
-  **place types** to include (`placeTypes`: hotels / restaurants / attractions) and cap how many per term with
-  **max places per term** (`maxPlaces`).
+- **Search a city or place name** in **🔍 City or place to search** (`searchTerms`), e.g. `Barcelona`, to list
+  all of its places.
+- **Search by property name or keyword** in **🔎 Keywords to search** (`searchKeywords`), e.g. `Hilton` or
+  `W Barcelona`, to find matching places directly (no URL needed).
+- **Filter a keyword search to a place** with **📍 City or country** (`searchLocation`), e.g. `Belgium`, so
+  `Hilton` + `Belgium` returns only Belgian Hiltons. A country must be paired with a keyword; a city can be
+  listed on its own.
 
-You need at least one of these three.
+For any Discover search, pick the **place types** (`placeTypes`: hotels / restaurants / attractions) and cap how
+many you get with **max places** (`maxPlaces`).
+
+You need at least one target: URLs, Location IDs, a city, or a keyword.
 
 ## 2. Set your review filters
 
