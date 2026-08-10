@@ -90,7 +90,6 @@ More runnable snippets (Python, Node.js, curl) live in **[snippets/](snippets/)*
 | `mode` | **Reviews** (default) = scrape reviews for the places you name below; **Discover** = search a city or keyword and list places |
 | `startUrls` | (Reviews) TripAdvisor `Hotel_Review` / `Restaurant_Review` / `Attraction_Review` URLs |
 | `locationIds` | (Reviews) TripAdvisor location IDs (the `d`-number), instead of/alongside URLs |
-| `searchTerms` + `placeTypes` + `maxPlaces` | (Discover) search a city name and get its hotels/restaurants/attractions as place records |
 | `searchKeywords` + `placeTypes` + `maxPlaces` | (Discover) search a property name/brand/keyword (e.g. `Hilton`) and get the matching places directly |
 | `searchLocation` | (Discover) optional city or country to filter keyword results to (e.g. `Hilton` + `Belgium`); a city can also be listed on its own, a country must be paired with a keyword |
 
@@ -143,8 +142,8 @@ Yes, set `maxReviews` to a large number (e.g. `100000`). Reviews are paginated n
 keeps a first run fast and cheap, and a rolling `fromDate` makes recurring runs pull only what's new.
 
 **Do I have to provide URLs?**
-No. You can pass location IDs instead. Or switch to **Discover** mode and enter a city/place name in `searchTerms`
-to get a list of that city's places (details only), then feed those location IDs back into **Reviews**
+No. You can pass location IDs instead. Or switch to **Discover** mode and enter a city or country in `searchLocation`
+to get a list of that place's places (details only), then feed those location IDs back into **Reviews**
 mode for their reviews. A stale or merged URL/ID still works, it self-heals to the current place.
 
 **Is web scraping legal?**
