@@ -10,7 +10,8 @@ There are three ways to target places, use any one, or mix them:
 - **Paste TripAdvisor URLs** into **🔗 TripAdvisor URLs** (`startUrls`). Copy the detail-page URL straight from
   your browser, e.g.
   `https://www.tripadvisor.com/Hotel_Review-g187497-d1465497-Reviews-W_Barcelona-Barcelona_Catalonia.html`.
-  `Hotel_Review`, `Restaurant_Review` and `Attraction_Review` URLs all work. A stale or merged URL still
+  `Hotel_Review`, `Restaurant_Review`, `Attraction_Review` and `Airline_Review` URLs all work (airlines return
+  reviews only, no subratings or AI summary). A stale or merged URL still
   works, the actor follows the merge to the current place automatically.
 - **Enter Location IDs** in **🆔 …or Location IDs** (`locationIds`), the `d`-number from a URL (e.g. `1465497`
   from `…-d1465497-…`), one per line.
