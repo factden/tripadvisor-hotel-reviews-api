@@ -159,6 +159,7 @@ login. Questions or a bug? Open an issue on this repo or use the actor's **Issue
 
 Building a review or travel dataset? These pair well with this actor:
 
+- [Booking.com Scraper](https://apify.com/factden/booking-com-scraper?fpr=factden) - hotels, live prices, per-room rates, availability & occupancy, and guest reviews across a whole city or one hotel ([docs](https://github.com/factden/booking-com-scraper))
 - [MCA India Company & Director Data Scraper](https://apify.com/factden/mca-company-director-scraper?fpr=factden) - India MCA company master + directors' personal email & phone ([docs](https://github.com/factden/mca-company-director-scraper))
 - [Google Hotels Scraper](https://apify.com/factden/google-hotels-scraper?fpr=factden) ([docs](https://github.com/factden/google-hotels-scraper))
 - [Expedia Hotel Reviews Scraper](https://apify.com/factden/expedia-hotel-reviews-scraper?fpr=factden) ([docs](https://github.com/factden/expedia-hotel-reviews-scraper))
