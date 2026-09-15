@@ -121,7 +121,7 @@ Real sample output (built from a live run against W Barcelona) is in **[examples
 
 ## Cost
 
-**No start fee.** Pay only for what you collect:
+Pay for what you collect, plus a small **$0.005 per-run start fee** (less on higher plans):
 
 - **Reviews:** ~**$0.45 per 1,000 reviews** on the Free plan, dropping to **$0.38 per 1,000** on Gold.
 - **Property records:** **$2.00 per 1,000** (Free) → **$1.40 per 1,000** (Gold), one per place (always emitted;
